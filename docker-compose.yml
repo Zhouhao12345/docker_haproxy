@@ -1,0 +1,9 @@
+version: '2'
+services:  
+  haproxy:
+     build: .
+     network_mode: "host"
+
+#networks:
+#    haporxy_net:
+#      external: true
